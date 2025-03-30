@@ -6,7 +6,7 @@ export default function About() {
   const router = useRouter();
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center text-white px-6">
+    <div className="min-h-screen flex flex-col items-center justify-center text-white pt-0 px-6">
       <h1 className="text-4xl font-bold mb-4">Welcome to TrackIt</h1>
       <p className="text-lg text-gray-300 max-w-2xl text-center">
         TrackIt is a powerful budget tracker that helps you manage your expenses,

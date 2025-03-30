@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useState } from "react";
 import Image from "next/image";
 import  github from "./github.png";
+import  google from "./Google.png";
 
 export default function LoginPage() {
   const [formData, setFormData] = useState({
@@ -108,6 +109,18 @@ export default function LoginPage() {
           alt="GitHub logo" 
           width={24} 
           height={24} 
+        />
+      </button>
+
+      <button
+          onClick={() => signIn("google")}
+          className="flex items-center justify-center gap-3 "
+      >
+        <Image
+            src={google}
+            alt="Google logo"
+            width={24}
+            height={24}
         />
       </button>
 

@@ -3,7 +3,10 @@ import About from "./about/page";
 export default function Home() {
   return (
     <>
-    <About />
+    <div className="pt-1">
+      <About />
+
+    </div>
     </>
   );
 }

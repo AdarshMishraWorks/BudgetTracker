@@ -10,11 +10,11 @@ export default function Navbar() {
   }
   
   return (
-    <nav className="bg-gray-900 text-white py-4 shadow-md">
+    <nav className=" text-white shadow-md">
       <div className="container mx-auto flex justify-between items-center px-4">
         <Link href="/" className="text-xl font-bold">TrackIt</Link>
         
-        <div className="flex space-x-6">
+        <div className="flex pt-3 space-x-6">
           <Link href="/">Home</Link>
           <Link href="/about">About</Link>
           <Link href="/tracker">Tracker</Link>

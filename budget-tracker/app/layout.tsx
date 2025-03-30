@@ -30,7 +30,7 @@ export default function RootLayout({
         {/* Wrap Everything in SessionProvider */}
         <SessionProvider>
           <Navbar />
-          <div className="pt-24">{children}</div> {/* Adjusted padding for fixed navbar */}
+          <div className="pt-0">{children}</div> {/* Adjusted padding for fixed navbar */}
         </SessionProvider>
       </body>
     </html>
